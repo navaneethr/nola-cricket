@@ -22,10 +22,22 @@
     height: 250px;
     margin: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 
 .player-parent img {
     width: 200px;
+    transition: transform .4s;
+}
+
+.player-img-container {
+    overflow: hidden;
+}
+
+.player-parent:hover img {
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
 }
 
 .player-info {

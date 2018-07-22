@@ -10,6 +10,8 @@ import saranyan from '../assets/players/saranyan.jpg';
 import ram from '../assets/players/ram.jpg';
 import humzah from '../assets/players/humzah.jpg';
 import tarun from '../assets/players/tarun.JPG';
+import jay from '../assets/players/jay.jpeg';
+import nav from '../assets/players/nav.jpg';
 
 export default class Team extends Component {
     render() {
@@ -88,6 +90,22 @@ export default class Team extends Component {
                             </div>
                             <div className="player-info">
                                 <span>Tarun</span>
+                            </div>
+                        </div>
+                        <div className="player-parent">
+                            <div className="player-img-container">
+                                <img src={jay} />
+                            </div>
+                            <div className="player-info">
+                                <span>Jay</span>
+                            </div>
+                        </div>
+                        <div className="player-parent">
+                            <div className="player-img-container">
+                                <img src={nav} />
+                            </div>
+                            <div className="player-info">
+                                <span>Navneeth</span>
                             </div>
                         </div>
                     </div>
