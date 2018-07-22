@@ -3,7 +3,7 @@ import Navbar from "./Navbar";
 import '../stylesheets/Team.css';
 import sri from '../assets/players/sri.jpg';
 import sriram from '../assets/players/sriram.jpg';
-import vira from '../assets/players/vira.JPG';
+import vira from '../assets/players/vira.jpg';
 import vinod from '../assets/players/vinod.JPG';
 import abdullah from '../assets/players/abdullah.jpg';
 import saranyan from '../assets/players/saranyan.jpg';
