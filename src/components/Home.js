@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import '../stylesheets/Home.css';
 import teamImg from '../assets/team.png';
 import Navbar from "./Navbar";
+import Sidebar from "./Sidebar";
 
 class Home extends Component {
   render() {

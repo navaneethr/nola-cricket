@@ -11,6 +11,7 @@ font-family: 'Rubik Mono One', sans-serif;*/
   right: 0;
   color: #FFF;
   z-index: 100;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .home-body {
@@ -39,4 +40,17 @@ font-family: 'Rubik Mono One', sans-serif;*/
 
 .team-img-container {
   margin-top: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .nav-bar ul {
+    display: none;
+  }
+
+  .navbar-menu-icon-container {
+    display: block;
+  }
+  .navbar-menu-icon-container img {
+    width: 30px;
+  }
 }
